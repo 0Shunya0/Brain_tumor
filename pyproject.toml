@@ -1,0 +1,8 @@
+[project]
+name = "braintumor"
+version = "0.1.0"
+description = "MRI brain tumor classification with a transfer-learning VGG16 model"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
